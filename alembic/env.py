@@ -17,7 +17,7 @@ if config.config_file_name is not None:
 # add your model's MetaData object here
 # for 'autogenerate' support
 from sql_app import models
-target_metadata = models.User.metadata
+target_metadata = models.EncryptedTable.metadata
 # target_metadata = None
 
 # other values from the config, defined by the needs of env.py,
